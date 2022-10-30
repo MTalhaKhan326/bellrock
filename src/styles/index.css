@@ -1,0 +1,350 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #eeeff0;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 4px 11px 1px rgba(42, 45, 67, 0.23);
+  border-radius: 25px;
+  margin-left: 30px;
+  padding: 40px;
+}
+.button-edit {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  background: #f2385f;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 6px;
+}
+.button-edit img {
+  display: block;
+  margin-right: 4px;
+}
+
+.header {
+  margin-left: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.profile-image {
+  min-height: 46px;
+  object-fit: cover;
+}
+.site-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 63px;
+  color: #2a2d43;
+}
+
+.page-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2a2d43;
+}
+
+.profile-setting-image {
+  height: 130px;
+  width: 130px;
+  border-radius: 18px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.user-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #2a2d43;
+  margin-bottom: 12px;
+}
+.user-info {
+  border-top: 1.5px solid rgba(42, 45, 67, 0.08);
+  padding: 13px 0 14px;
+}
+.input-content {
+  border: 2px solid #2a2d43;
+  /* overflow: hidden; */
+
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2a2d43;
+  height: 66px;
+  width: 100%;
+  padding-left: 16px;
+  margin-bottom: 14px;
+}
+.react-tel-input {
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.react-tel-input input {
+  border: 0 !important;
+  width: 99% !important;
+  margin-left: 2px !important;
+}
+.phone-input-wrapper {
+  margin-top: 18px;
+  padding-left: 0 !important;
+}
+
+.flag-dropdown {
+  border: 0 !important;
+  margin-left: 1px;
+  top: 2px;
+  left: 1px;
+  position: relative;
+  background-color: #fff !important;
+}
+
+.flag-dropdown:after {
+  position: absolute;
+  content: "";
+  right: -5px;
+  height: 46px;
+  width: 1px;
+  background: #2a2d43;
+  top: 8px;
+}
+.form-control {
+  width: 100% !important;
+  height: 60px !important;
+  border-radius: 10px;
+}
+.PhoneInputInput {
+  height: 62px;
+  padding-left: 15px;
+}
+.PhoneInput input:focus {
+  border: 0;
+  outline: none;
+}
+.PhoneInputInput:focus {
+  border: 0;
+}
+.main-form {
+  width: 358px;
+  margin: 0 auto;
+}
+.label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2a2d43;
+}
+.info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2a2d43;
+}
+.label-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2d43;
+  margin: 0 0 6px;
+}
+.PhoneInputCountry {
+  position: relative;
+}
+.PhoneInputCountry:after {
+  position: absolute;
+  content: "";
+  right: -10px;
+  height: 46px;
+  width: 1px;
+  background: #2a2d43;
+}
+.save-change-btn {
+  background: #f2385f;
+  border-radius: 10px;
+  width: 232px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.select {
+  height: 51px;
+  border: 2px solid #2a2d43;
+  border-radius: 6px;
+  margin-right: 8px;
+  padding: 2px 6px;
+}
+.image-upload-wrapper {
+  position: relative;
+  height: 130px;
+  width: 130px;
+  margin: 0 auto 40px;
+}
+.dropzone {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.image-upload-avatar img {
+  height: 130px;
+  width: 130px;
+  border-radius: 18px;
+}
+
+.cancel-btn {
+  margin-left: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2a2d43;
+}
+.page-root {
+  padding: 40px;
+}
+
+.sidebar-main {
+  background: #ffffff;
+  box-shadow: 0px 4px 11px 1px rgba(42, 45, 67, 0.23);
+  border-radius: 25px;
+}
+
+.form-buttons-wrapper {
+  margin-top: 37px;
+}
+.profile-update-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.profile-update-content {
+  width: 345px;
+  height: 216px;
+  background: #ffffff;
+  border: 1px solid #f2385f;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+}
+.profile-update-content p {
+  height: 163px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120.5%;
+  color: #2a2d43;
+}
+.profile-update-content button {
+  height: 53px;
+  width: 100%;
+  background: #f2385f;
+  border-radius: 0px 0px 20px 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.label-text-alt {
+  margin-bottom: 6px;
+  display: block;
+  margin-left: 6px;
+}
+
+.nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #2a2d43;
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+}
+.nav-link span {
+  display: block;
+  margin-right: 10px;
+}
+.sidebar-profile-details p {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+  color: #2a2d43;
+  margin: 5px 0 0;
+}
+.sidebar-profile-image {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto;
+}
+
+.sidebar-profile-details {
+  margin-top: 42px;
+  margin-bottom: 50px;
+}
+
+.active-nav {
+  background: #f2385f;
+  color: #ffffff;
+}
+.active-nav svg path {
+  fill: #fff;
+}
